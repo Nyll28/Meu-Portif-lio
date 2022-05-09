@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//gupy.io//gupy//EN
+NAME:Gupy Ical
+X-WR-CALNAME:Gupy Ical
+TIMEZONE-ID:America/Sao_Paulo
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VEVENT
+UID:event-58537@gupy.io@gupy.io
+SEQUENCE:0
+DTSTAMP:20220505T195521Z
+DTSTART;TZID=America/Sao_Paulo:20220509T173000
+DTEND;TZID=America/Sao_Paulo:20220509T180000
+SUMMARY:Agendamento: Processo seletivo leadlovers - entrevista!
+DESCRIPTION:<p>Olá Nilmara\, tudo bem?</p><p><br></p><p>Me chamo Camila e 
+ integro o time de RH da Leadlovers\, martech curitibana que atua no mercad
+ o de marketing digital.</p><p><br></p><p>Percebi que você se aplicou à nos
+ sa vaga Analista de Atendimento ao Cliente I (Remoto) e gostaríamos de age
+ ndar uma entrevista inicial remota.&nbsp\;</p><p><br></p><p>Você tem dispo
+ nibilidade na horário e dia proposto acima?</p><p><br></p><p>Aguardo seu r
+ etorno.</p><p><br></p><p>Até logo.</p>
+X-ALT-DESC;FMTTYPE=text/html:<p>Olá Nilmara\, tudo bem?</p><p><br></p><p>M
+ e chamo Camila e integro o time de RH da Leadlovers\, martech curitibana q
+ ue atua no mercado de marketing digital.</p><p><br></p><p>Percebi que você
+  se aplicou à nossa vaga Analista de Atendimento ao Cliente I (Remoto) e g
+ ostaríamos de agendar uma entrevista inicial remota.&nbsp\;</p><p><br></p>
+ <p>Você tem disponibilidade na horário e dia proposto acima?</p><p><br></p
+ ><p>Aguardo seu retorno.</p><p><br></p><p>Até logo.</p>
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Camila":MAILTO:camila.arita@su
+ porte.love
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Nilmara":MAILTO:nilmara.virgin
+ ia@gmail.com
+END:VEVENT
+END:VCALENDAR

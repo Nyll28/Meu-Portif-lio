@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ca0da4754a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Serif:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css/style.css">
+
+
+
+
+    <title>Meu Portifólio</title>
+
+</head>
+<body>
+<header>
+      
+    <ul>
+        
+    <div class="icones">
+        <div>
+    <li> <a  href="https://github.com/Nyll28"  target="_blank" i class="fa-brands fa-github"></i> Github </a>      
+
+    </li>
+      </div>
+
+      <div>
+       <li> <a href="https://www.linkedin.com/in/nilmara-martins-933433144/"  target="_blank" i class="fa-brands fa-linkedin"></i> Linkedin </a>
+              
+    </li>
+      </div>
+
+      <div>  
+    <li>  <a href="https://wa.me/83999696282"  target="_blank" i class="fa-brands fa-whatsapp"></i> Contato </a> 
+           
+    </li>
+  </div> 
+</div>
+    </ul>
+</header>  
+</div>
+</div>
+  <main>
+      <section class="container">
+
+      <div class="perfil">
+
+        <div class="img"> <img src="img/Nyll.jpg" alt="">
+
+      </div>
+
+        </div>
+      <div>
+          <h1> Nilmara Martins </h1>
+          <h5>Front-end Developer </h5>               
+                  
+      </div>
+
+      <div onclick="displayAbout()" id="arrow">
+        <i id="animation" class="fa-solid fa-caret-down"></i>
+        
+      </div>
+
+      <div style="display: none;" id="about">
+
+                 
+          <p class="text">
+            Olá, me chamo Nilmara e tenho 28 anos, sou da cidade de Campina Grande na Paraíba.
+            Amo tecnologia, estou cursando o 3° período de Análise e desenvolvimento de Sistemas (ADS) 
+            e estudando Desenvolvimento Front end.
+            Linguagens que estou praticando : Html, Css e Javascript.
+            Sou curiosa, criativa, gosto de dar suporte e odeio ficar parada.
+            Mais abaixo seguem alguns projetinhos que fiz para fins didáticos. Espero que gostem!
+            
+          </p>
+        
+          <div class="flex">
+            <div>
+              
+              <img src="/img/TeladeLogin.JPG" alt="Clone Netflix">
+            <p>
+              Aqui foi minha primeira tela de login, criada usando Html e Css com auxílio de videos do youtube.
+            </p>
+           
+          </div>
+      
+          <div>
+      
+            <img src="/img/ProjetoKenzie.JPG" alt="">
+            <p>
+            Projeto com interface de tela de filmes, 
+            realizado junto das aulas da escola de programação Kenzie Academy.
+            </p>
+      
+          </div>
+      
+          <div>
+      
+            <img src="/img/TelaNeflixclone.jpg" alt="">
+            <p>
+              Clone da tela da interface da Netflix criada com Html e Css
+              nas aulas do bootcamp da Digital Innovation e Kenzie Academy.
+            </p>
+      
+          </div>
+        
+           </div>
+      </div>
+      
+     <div class="form">
+         
+         <form action="">
+          <input type="text" placeholder="Deixe sua mensagem :)">
+          <button class="botao">enviar!</button>
+
+         </form>
+
+
+     </div>
+
+    </section>
+        
+  </main>
+
+   <script>
+       function displayAbout() {
+         var arrow = document.getElementById('animation');
+         arrow.classList.toggle('rotate');         
+         var display = document.getElementById('about');
+         display.classList.toggle('active');
+       
+       }
+
+       
+
+       
+   </script>
+
+   
+
+</body>
+</html>

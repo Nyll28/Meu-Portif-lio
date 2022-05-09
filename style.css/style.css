@@ -1,0 +1,185 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box; 
+font-family: 'Poppins', sans-serif; 
+}  
+
+
+ul{
+    list-style: none;
+      
+}
+
+a{
+  text-decoration: none;
+  color: rgb(188, 128, 206);
+  font-size: 21px;
+ 
+}
+
+ul li a:hover{
+    color:rgb(74, 41, 128);
+    
+}
+
+ul li a{
+transition: 350ms;
+
+}
+
+body{
+    
+    background-image: url(/img/dark4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size:cover;
+   
+}
+   
+
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+              
+   
+}
+
+.perfil img {
+
+    border-radius: 55%;
+    
+    
+
+}
+.container{
+    text-align: center;
+    
+}
+
+.container h1{
+    font-size: 45px;
+    color: rgb(171, 96, 194);
+}
+
+.container h5{
+    font-size: 21px;
+    color: rgb(122, 108, 182);
+   
+}
+
+
+.container p{
+    font-size: 17px;
+    color: rgb(218, 207, 218);
+    width: 800px;
+    margin-left: 20%;  
+   
+
+}
+
+#arrow{ 
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+    color:rgb(132, 75, 170)
+
+}
+
+#animation{
+    transition: 400ms;
+}
+
+@keyframes blink {
+   to {
+     visibility: hidden;
+
+   }
+
+}
+
+.active{
+
+    display: block !important;
+    
+}
+
+
+.rotate{
+
+    transform: rotate(180deg);
+    transition: 300ms;
+
+}
+
+
+.botao{
+border-radius: 3px;
+padding: 5px 10px;
+border: 0px;
+cursor: pointer;
+background-color: rgb(141, 109, 137);
+color: rgb(245, 238, 238);
+margin-top: 5px;
+
+}
+
+.botao:hover{
+    background-color: rgb(97, 31, 128);
+    color: white;
+}
+
+.form input{
+    width: 25%;
+    border-radius: 5px;
+    border: 0px;
+    padding:5px 10px;
+    cursor:pointer ;
+}
+
+
+
+.icones{
+    display: flex;
+    justify-content:end;
+    margin-top: 20px;
+    margin-right: 20px;
+       
+    
+}
+
+.icones li a {
+    margin: 15px;
+   
+}
+
+.form{
+margin-top: 15px;
+
+
+}
+.flex{
+    display: flex;
+    justify-content:center;
+    margin: 15px;
+    
+}
+
+.flex div{
+    align-items: center;
+    margin: 15px;
+    
+}
+
+.flex img{
+max-width: 300px;
+}
+
+.flex p{
+    width: 350px;
+    color: rgb(235, 211, 241);
+    margin-left: 10px;
+    
+}
