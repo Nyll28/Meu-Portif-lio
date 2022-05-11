@@ -72,14 +72,20 @@ body{
 
 
 .container p{
-    font-size: 17px;
+    font-size: 14px;
     color: rgb(218, 207, 218);
     width: 800px;
-    margin-left: 20%;  
+    margin-left: 20%; 
+    text-align:center;
    
-
 }
 
+div .text{
+
+    text-align:center;
+    font-size: 17px;
+}
+     
 #arrow{ 
     font-size: 30px;
     cursor: pointer;
@@ -157,6 +163,7 @@ margin-top: 5px;
 
 .form{
 margin-top: 15px;
+margin-bottom: 40px;
 
 
 }
